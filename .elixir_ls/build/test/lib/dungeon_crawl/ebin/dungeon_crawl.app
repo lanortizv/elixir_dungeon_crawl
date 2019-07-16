@@ -1,0 +1,10 @@
+{application,dungeon_crawl,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"dungeon_crawl"},
+              {modules,['Elixir.DungeonCrawl.CLI.HeroChoice',
+                        'Elixir.DungeonCrawl.CLI.Main',
+                        'Elixir.DungeonCrawl.Character',
+                        'Elixir.DungeonCrawl.Heroes',
+                        'Elixir.Mix.Tasks.Start']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
